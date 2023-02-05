@@ -1,0 +1,259 @@
+/* header */
+.header {
+  letter-spacing: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 26px;
+  margin-bottom: 94px;
+}
+.content {
+  display: flex;
+  position: relative;
+  /*  */
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+.contentHappyDog__header-text {
+  font-size: 70px;
+  width: 100%;
+}
+.contentHappyDog__header {
+  display: inline-block;
+  width: 600px;
+  margin: 0 auto;
+}
+#content .contentHappyDog__header-document {
+  font-size: 14px;
+  color: #2c2c2c;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+.btn {
+  margin-top: 86px;
+}
+.contentHappyDog__img {
+  display: block;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+}
+.behindimg__document {
+  display: flex;
+  margin: 0;
+  margin-top: 60px;
+  justify-content: space-around;
+}
+.behindimg__document-icon-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.behindimg__document-text {
+  margin: 0;
+  padding: 0 16px;
+  text-align: left;
+  font-size: 14px;
+  opacity: 0.8;
+}
+.behindimg__document-icon {
+  margin: 0;
+}
+/* our services header */
+.Our-Services__header {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+}
+.content-Our-Services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 186px;
+}
+.Our-Services-content-box {
+  width: 600px;
+  margin-top: 58px;
+  margin-bottom: 38px;
+}
+
+.content-box-text {
+  margin-top: 40px;
+  margin-bottom: 36px;
+  line-height: 1.4;
+  opacity: 0.8;
+  font-size: 14px;
+  color: #2c2c2c;
+}
+.content-box-header,
+.content-box-price {
+  opacity: 0.8;
+  font-size: 14px;
+  color: #2c2c2c;
+}
+.content-img-dog {
+  margin-top: 120px;
+  display: flex;
+}
+
+.content-img-left {
+  display: flex;
+  flex-direction: column;
+}
+.img-dog-left {
+  width: 100%;
+  height: auto;
+}
+.img-dog-right {
+  width: 100%;
+  height: 634px;
+  margin-left: 32px;
+}
+.content-mtt {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 305px;
+}
+.team-row {
+  display: flex;
+}
+.content-mtt-box-image {
+  margin: auto;
+  margin-bottom: 120px;
+}
+.content-mtt-team {
+  padding: 0;
+  margin: 0;
+}
+.content-mtt-team-right {
+  margin-left: 164px;
+}
+.content-mtt-box-image-text {
+  font-size: 12px;
+  display: block;
+  opacity: 0.8;
+  margin: 14px 46px;
+}
+.content-mtt-header-header {
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-top: 100px;
+  margin-bottom: 46px;
+}
+.content-mtt-header-text {
+  width: 80%;
+  line-height: 1.4;
+  opacity: 0.8;
+  font-size: 14px;
+  color: #2c2c2c;
+  margin-bottom: 40px;
+}
+.content-mtt-img {
+  width: 288px;
+  height: 360px;
+  margin-bottom: 14px;
+  margin-top: 80px;
+}
+.content-mtt-box-image-header {
+  font-size: 30px;
+  display: block;
+  width: 45%;
+  word-break: break-word;
+  line-height: 1.2;
+}
+.content-people {
+  display: inline-block;
+}
+.content-people-header {
+}
+.content-people-header-text {
+  margin-left: 305px;
+  font-size: 50px;
+  font-weight: 200;
+}
+.content-people-row {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+.content-people-text {
+  font-size: 16px;
+  opacity: 0.8;
+  margin-left: 70px;
+  width: 56%;
+}
+.content-people-date {
+  margin-left: 0;
+  font-size: 12px;
+  opacity: 0.8;
+  font-style: italic;
+}
+.content-people-row-title {
+  opacity: 0.8;
+  text-align: left;
+  font-size: 16px;
+  margin-left: 0;
+  margin-right: 90px;
+}
+.content-people-title-date {
+  width: 150%;
+  display: block;
+  margin: 0;
+  font-size: 14px;
+}
+.providing-background {
+  position: absolute;
+  width: 100%;
+  background-color: #2c2c2c;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  left: 0;
+}
+.providing-title {
+  padding-top: 90px;
+  padding-bottom: 50px;
+  font-size: 40px;
+  font-weight: 400;
+  margin-left: 180px;
+}
+.providing-phone {
+  padding-bottom: 120px;
+  font-size: 20px;
+  margin-left: 180px;
+}
+.providing-title,
+.providing-phone {
+  background-color: transparent;
+  color: #eaeaee;
+}
+.footer {
+  margin-top: 400px;
+  display: flex;
+  margin-left: 0;
+  justify-content: space-around;
+
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+.footer-portman {
+  letter-spacing: 6px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.footer-block {
+  display: flex;
+  flex-direction: column;
+  opacity: 0.8;
+}
+.footer-block-link {
+  text-decoration: none;
+  color: #333;
+}

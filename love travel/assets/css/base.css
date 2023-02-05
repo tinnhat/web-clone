@@ -1,0 +1,107 @@
+:root {
+  --white-color: #fff;
+  --text-color: #555;
+  --primary-color: #14b9d5;
+}
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+.gachchan {
+  text-decoration-line: underline;
+  text-decoration-color: #ba71da;
+}
+.mauxanh {
+  text-decoration-color: #1bbc9b;
+}
+.mauhong {
+  text-decoration-color: #f76570;
+}
+.mau-primary {
+  text-decoration-color: #14b9d5;
+}
+.maucam {
+  color: #f6aa6b !important;
+}
+.gach-maucam {
+  text-decoration-color: #f3a46b !important;
+}
+.xanhla {
+  color: #1bbc9b !important;
+}
+.hongkong-color {
+  background: linear-gradient(to right, #f76570 0%, #f78d65 100%) !important;
+}
+.san-color {
+  background: linear-gradient(to right, #ba71da 0%, #da717b 100%) !important;
+}
+.hong {
+  background-color: #f76570 !important;
+}
+.tim {
+  background-color: #ba71da !important;
+}
+.tus-color {
+  background: linear-gradient(to right, #1bbc9b 0%, #1bbc63 100%) !important;
+}
+.am-color {
+  background: linear-gradient(to right, #f3a46b 0%, #f3c96b 100%) !important;
+}
+.pk-color {
+  background: linear-gradient(to right, #14b9d5 0%, #14d5b1 100%) !important;
+}
+.mau-berlin-nav {
+  background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%) !important;
+}
+.col-8 {
+  flex: 0 0 10.5%;
+  width: 10.5%;
+}
+.btn-destination {
+  color: var(--primary-color);
+  background: var(--white-color);
+  padding: 6px 22px;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+  margin-top: 18px;
+}
+.mar-bot-20 {
+  margin-bottom: 30px !important;
+}
+
+.disable {
+  display: none;
+}
+.active {
+  display: block;
+}
+
+/* animation */
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.menu-navbar-content {
+  transform: translateX(100%);
+}
+
+.dichphai {
+  transform: translateX(100%);
+}
+.dichtrai {
+  transform: translateX(0%);
+}

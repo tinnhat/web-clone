@@ -1,0 +1,47 @@
+.slider-aboutMina {
+  margin-top: 80px;
+  position: relative;
+  height: 400px;
+  background: url("./back.png") top center / cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-aboutMina {
+  color: #fff;
+}
+.form-contact {
+  margin: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+.form-contact-info {
+  width: 600px;
+}
+.form-contact-heading {
+  font-size: 32px;
+  color: #4d2c57;
+}
+.form-contact-text {
+  font-size: 18px;
+  color: #4d2c57;
+  line-height: 1.4;
+}
+.form-contact-info-input,
+.form-contact-info-multi-input {
+  width: 100%;
+  padding: 12px 12px;
+  border: none;
+  background-color: #f1f1f1;
+  color: #888888;
+  outline: none;
+}
+.box-form-contact-bottom {
+  margin-top: 68px;
+}
+.form-contact-info-text {
+  margin-bottom: 4px;
+  margin-top: 24px;
+  font-size: 18px;
+  color: #4d2c57;
+}

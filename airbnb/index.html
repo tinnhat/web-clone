@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body class="body">
+    <div class="main">
+
+    
+    <!-- header -->
+    <header class="header ">
+      <div class="grid">
+        <div class="header__box">
+          <div class="header__logo">
+            <a href="/" class="header__logo-link">
+              <svg
+                width="102"
+                height="32"
+                fill="currentcolor"
+                style="display: block;"
+                class="header__logo-link-svg"
+              >
+                <path
+                  d="M29.24 22.68c-.16-.39-.31-.8-.47-1.15l-.74-1.67-.03-.03c-2.2-4.8-4.55-9.68-7.04-14.48l-.1-.2c-.25-.47-.5-.99-.76-1.47-.32-.57-.63-1.18-1.14-1.76a5.3 5.3 0 00-8.2 0c-.47.58-.82 1.19-1.14 1.76-.25.52-.5 1.03-.76 1.5l-.1.2c-2.45 4.8-4.84 9.68-7.04 14.48l-.06.06c-.22.52-.48 1.06-.73 1.64-.16.35-.32.73-.48 1.15a6.8 6.8 0 007.2 9.23 8.38 8.38 0 003.18-1.1c1.3-.73 2.55-1.79 3.95-3.32 1.4 1.53 2.68 2.59 3.95 3.33A8.38 8.38 0 0022.75 32a6.79 6.79 0 006.75-5.83 5.94 5.94 0 00-.26-3.5zm-14.36 1.66c-1.72-2.2-2.84-4.22-3.22-5.95a5.2 5.2 0 01-.1-1.96c.07-.51.26-.96.52-1.34.6-.87 1.65-1.41 2.8-1.41a3.3 3.3 0 012.8 1.4c.26.4.45.84.51 1.35.1.58.06 1.25-.1 1.96-.38 1.7-1.5 3.74-3.21 5.95zm12.74 1.48a4.76 4.76 0 01-2.9 3.75c-.76.32-1.6.41-2.42.32-.8-.1-1.6-.36-2.42-.84a15.64 15.64 0 01-3.63-3.1c2.1-2.6 3.37-4.97 3.85-7.08.23-1 .26-1.9.16-2.73a5.53 5.53 0 00-.86-2.2 5.36 5.36 0 00-4.49-2.28c-1.85 0-3.5.86-4.5 2.27a5.18 5.18 0 00-.85 2.21c-.13.84-.1 1.77.16 2.73.48 2.11 1.78 4.51 3.85 7.1a14.33 14.33 0 01-3.63 3.12c-.83.48-1.62.73-2.42.83a4.76 4.76 0 01-5.32-4.07c-.1-.8-.03-1.6.29-2.5.1-.32.25-.64.41-1.02.22-.52.48-1.06.73-1.6l.04-.07c2.16-4.77 4.52-9.64 6.97-14.41l.1-.2c.25-.48.5-.99.76-1.47.26-.51.54-1 .9-1.4a3.32 3.32 0 015.09 0c.35.4.64.89.9 1.4.25.48.5 1 .76 1.47l.1.2c2.44 4.77 4.8 9.64 7 14.41l.03.03c.26.52.48 1.1.73 1.6.16.39.32.7.42 1.03.19.9.29 1.7.19 2.5zM41.54 24.12a5.02 5.02 0 01-3.95-1.83 6.55 6.55 0 01-1.6-4.48 6.96 6.96 0 011.66-4.58 5.3 5.3 0 014.08-1.86 4.3 4.3 0 013.7 1.92l.1-1.57h2.92V23.8h-2.93l-.1-1.76a4.52 4.52 0 01-3.88 2.08zm.76-2.88c.58 0 1.09-.16 1.57-.45.44-.32.8-.74 1.08-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.55.45zM53.45 8.46c0 .35-.06.67-.22.93-.16.25-.38.48-.67.64-.29.16-.6.22-.92.22-.32 0-.64-.06-.93-.22a1.84 1.84 0 01-.67-.64 1.82 1.82 0 01-.22-.93c0-.36.07-.68.22-.93.16-.3.39-.48.67-.64.29-.16.6-.23.93-.23a1.84 1.84 0 011.6.86 2 2 0 01.21.94zm-3.4 15.3V11.7h3.18v12.08h-3.19zm11.68-8.9v.04c-.15-.07-.35-.1-.5-.13-.2-.04-.36-.04-.55-.04-.89 0-1.56.26-2 .8-.48.55-.7 1.32-.7 2.31v5.93h-3.19V11.69h2.93l.1 1.83c.32-.64.7-1.12 1.24-1.48a3.1 3.1 0 011.81-.5c.23 0 .45.02.64.06.1.03.16.03.22.06v3.2zm1.28 8.9V6.74h3.18v6.5c.45-.58.96-1.03 1.6-1.38a5.02 5.02 0 016.08 1.31 6.55 6.55 0 011.6 4.49 6.96 6.96 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.1 1.57-2.92.03zm6.15-2.52c.57 0 1.08-.16 1.56-.45.44-.32.8-.74 1.08-1.25.26-.51.38-1.12.38-1.8 0-.67-.12-1.28-.38-1.79a3.75 3.75 0 00-1.08-1.25 2.95 2.95 0 00-3.12 0c-.45.32-.8.74-1.09 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.56.45zm7.51 2.53V11.69h2.93l.1 1.57a3.96 3.96 0 013.54-1.89 4.1 4.1 0 013.82 2.44c.35.76.54 1.7.54 2.75v7.24h-3.19v-6.82c0-.84-.19-1.5-.57-1.99-.38-.48-.9-.74-1.56-.74-.48 0-.9.1-1.27.32-.35.23-.64.52-.86.93a2.7 2.7 0 00-.32 1.35v6.92h-3.16zm12.52 0V6.73h3.19v6.5a4.67 4.67 0 013.73-1.89 5.02 5.02 0 013.95 1.83 6.57 6.57 0 011.59 4.48 6.95 6.95 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.09 1.57-2.93.03zm6.18-2.53c.58 0 1.09-.16 1.56-.45.45-.32.8-.74 1.09-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a3.63 3.63 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.95.45 1.55.45z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+          
+          <div class="header__box-search disable">
+            <!-- ô search khi scroll chuột sẽ hiện ra bth thì ẩn đi -->
+            <button class="header__box-search-input " >
+              Bắt đầu tìm kiếm
+              <i class="header__box-search-icon fas fa-search"></i>
+             
+            </button>
+            
+          </div>
+          <div class="header__box-search__menu ">
+            <ul class="header__box-search__menu-list">
+              <li class="header__box-search__item active_click">Nơi ở 
+                <div class="header__box-search__item-click  ">
+                  <button class="header__box-search-input-hidden">
+                   <a href="" class="grid-column-4 header__box-search-input__link">
+                     <h5 class="header__box-search-input__link-header">Địa điểm</h5>
+                     <p class="header__box-search-input__link-des">Bạn sắp đi đâu?</p>
+                   </a>
+                   <a href="" class="grid-column-4 header__box-search-input__link">
+                    <h5 class="header__box-search-input__link-header">Nhận phòng</h5>
+                    <p class="header__box-search-input__link-des">Thêm ngày</p>
+                   </a>
+                   <a href="" class="grid-column-4 header__box-search-input__link">
+                    <h5 class="header__box-search-input__link-header">Trả phòng</h5>
+                    <p class="header__box-search-input__link-des">Thêm ngày</p>
+                   </a>
+                   <a href="" class="grid-column-4 header__box-search-input__link ">
+                     <div>
+                      <h5 class="header__box-search-input__link-header">Khách</h5>
+                      <p class="header__box-search-input__link-des">Thêm khách</p>
+                     </div>
+                     <i class="header__box-search-hidden-icon fas fa-search">
+
+                    </i>
+                   </a>
+                    
+                   
+                  </button>
+                </div>
+              </li>
+              <li class="header__box-search__item">Trải nghiệm
+                <div class="header__box-search__item-click header__box-search__item-click-fix disable">
+                  <button class="header__box-search-input-hidden" >
+                   <a href="" class="col-2 header__box-search-input__link">
+                     <h5 class="header__box-search-input__link-header">Địa điểm</h5>
+                     <p class="header__box-search-input__link-des">Bạn sắp đi đâu?</p>
+                   </a>
+                   <a href="" class="col-2 header__box-search-input__link ">
+                     <div>
+                      <h5 class="header__box-search-input__link-header">Khách</h5>
+                      <p class="header__box-search-input__link-des">Thêm khách</p>
+                     </div>
+                     <i class="header__box-search-hidden-icon fas fa-search">
+
+                    </i>
+                   </a>
+                    
+                   
+                  </button>
+                </div>
+              </li>
+              <li class="header__box-search__item">
+                <a href="" class="header__box-search__item-link">Trải nghiệm trực tuyến</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-box-world">
+            <a href="" class="header-box-world__button">Trở thành chủ nhà</a>
+            <i class="header-box__icon-world fas fa-globe"></i>
+            <div class="header-box__login disable" id="login-header" >
+              <i class="header-box__icon-menu fas fa-bars " id="login-header"></i>
+              <i class="header-box__icon-user fas fa-user" id="login-header"></i>
+              <div class="header-box__login-form disable" id="box-click-login-header">
+               <ul class="header-box__login-form-list">
+                 <li class="header-box__login-form-item js-log"><strong>Đăng ký</strong></li>
+                 <li class="header-box__login-form-item js-log">Đăng nhập</li>
+                 <div class="div-straigh"></div>
+                 <li class="header-box__login-form-item">
+                   <a href="" class="header-box__login-form-item-link">
+                    Cho thuê nhà
+                   </a>
+                 </li>
+                 <li class="header-box__login-form-item">
+                  <a href="" class="header-box__login-form-item-link">Tổ chức trải nghiệm</a></li>
+                 <li class="header-box__login-form-item">
+                  <a href="" class="header-box__login-form-item-link">
+                    Trợ giúp
+                  </a> 
+                  </li>
+               </ul>
+              </div>
+              <div class="header-box__icon-user-circle" id="login-header" ></div>
+            </div>
+          </div>
+        </div>
+        
+        
+
+       
+      </div>
+    </header>
+
+    <!-- content -->
+    <div class="content">
+      <div class="grid">
+        <div class="content-top-box">
+
+          <h2 class="content-top-title">
+            Trải nghiệm trực tuyến do vận động viên tổ chức
+          </h2>
+          <button class="btn">Khám phá ngay</button>
+        </div>
+      </div>
+    </div>
+    <!-- contetn mid -->
+    <div class="content-mid">
+      <div class="grid">
+        <div class="content-travel-position">
+          <h3 class="travel-position-title">Khám phá những điểm đến gần đây</h3>
+          <div class="travel-position-row">
+           
+  <div class="grid-column-4 travel-column-box">
+    <div class="travel-postion-noun">
+        <a href="" class="travel-position-box">
+            <img src="./assets/img/HCM.jpg" class="travel-position-box-img col-2"></img>
+        <div class="travel-position-box-description">
+            <h4 class="travel-box__title">Thành phố Hồ Chí Minh</h4>
+            <p class="travel-box__time">45 phút lái xe</p>
+        </div>
+        </a>
+       
+    </div>
+    <div class="travel-postion-noun">
+        <a href="" class="travel-position-box">
+            <img src="./assets/img/cantho.png" class="travel-position-box-img col-2"></img>
+        <div class="travel-position-box-description">
+            <h4 class="travel-box__title">Cần Thơ</h4>
+            <p class="travel-box__time">3 giờ lái xe</p>
+        </div>
+        </a>
+       
+    </div>
+</div>
+<div class="grid-column-4 travel-column-box">
+    <div class="travel-postion-noun">
+        <a href="" class="travel-position-box">
+            <img src="./assets/img/nhatrang.jpg" class="travel-position-box-img col-2"></img>
+        <div class="travel-position-box-description">
+            <h4 class="travel-box__title">Nha Trang</h4>
+            <p class="travel-box__time">6 giờ lái xe</p>
+        </div>
+        </a>
+       
+    </div>
+    <div class="travel-postion-noun">
+        <a href="" class="travel-position-box">
+            <img src="./assets/img/tuyhoa.jpg" class="travel-position-box-img col-2"></img>
+        <div class="travel-position-box-description">
+            <h4 class="travel-box__title">Thành phố Tuy Hòa</h4>
+            <p class="travel-box__time">7 giờ lái xe</p>
+        </div>
+        </a>
+       
+    </div>
+</div>
+<div class="grid-column-4 travel-column-box">
+    <div class="travel-postion-noun">
+        <a href="" class="travel-position-box">
+            <img src="./assets/img/vungtau.png" class="travel-position-box-img col-2"></img>
+        <div class="travel-position-box-description">
+            <h4 class="travel-box__title">Vũng tàu</h4>
+            <p class="travel-box__time">2 giờ lái xe</p>
+        </div>
+        </a>
+       
+    </div>
+    <div class="travel-postion-noun">
+        <a href="" class="travel-position-box">
+            <img src="./assets/img/bienhoa.png" class="travel-position-box-img col-2"></img>
+        <div class="travel-position-box-description">
+            <h4 class="travel-box__title">Thành phố Biên Hòa</h4>
+            <p class="travel-box__time">15 phút lái xe</p>
+        </div>
+        </a>
+       
+    </div>
+</div>
+<div class="grid-column-4 travel-column-box">
+    <div class="travel-postion-noun">
+        <a href="" class="travel-position-box">
+            <img src="./assets/img/phuquoc.png" class="travel-position-box-img col-2"></img>
+        <div class="travel-position-box-description">
+            <h4 class="travel-box__title">Phú quốc</h4>
+            <p class="travel-box__time"></p>
+        </div>
+        </a>
+       
+    </div>
+    <!-- travel -->
+    <div class="travel-postion-noun">
+        <a href="" class="travel-position-box">
+            <img src="./assets/img/thuanan.jpg" class="travel-position-box-img col-2"></img>
+        <div class="travel-position-box-description">
+            <h4 class="travel-box__title">Thuận An</h4>
+            <p class="travel-box__time">15 phút lái xe</p>
+        </div>
+        </a>
+       
+    </div>
+</div>
+          
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- where -->
+  <div class="content-where">
+    <div class="grid">
+      <a href="" class="content-where-link">
+        <div class="content-where-backgournd">
+          <div class="content-where-box">
+          <h2 class="content-where-title">Bạn chưa biết</br> nên đi đâu?</br>Không vấn đề.</h2>
+          <button class="btn btn-content-where">Tìm kiếm linh hoạt</button>
+        </div>
+        </div>
+      </a>
+      
+      
+    </div>
+  </div>
+  <!-- contetn-anywhere -->
+  <div class="contetn-anywhere">
+    <div class="grid">
+      <h2 class="content-anywhere__title">Ở bất cứ đâu</h2>
+      <div class="content-anywhere-row">
+        
+        <div class="anywhere-box grid-column-4 ma-right-8">
+          <a href="" class="content-anywhere__link">
+            <img src="./assets/img/any1.jpg" alt="" class="anywhere-box__img">
+            <p class="anywhere-box__text">Nơi nghĩ dưỡng ngoài trời</p>
+          </a>
+         
+        </div>
+        <div class="anywhere-box grid-column-4 ma-left-8 ma-right-8">
+          <a href="" class="content-anywhere__link">
+            <img src="./assets/img/any2.jpg" alt="" class="anywhere-box__img">
+            <p class="anywhere-box__text">Chỗ ở độc đáo</p>
+          </a>
+          
+        </div>
+        <div class="anywhere-box grid-column-4 ma-left-8 ma-right-8">
+          <a href="" class="content-anywhere__link">
+          <img src="./assets/img/any3.jpg" alt="" class="anywhere-box__img">
+          <p class="anywhere-box__text">Toàn bộ nhà</p>
+          </a>
+        </div>
+        <div class="anywhere-box grid-column-4 ma-left-8">
+          <a href="" class="content-anywhere__link">
+          <img src="./assets/img/any4.jpg" alt="" class="anywhere-box__img">
+          <p class="anywhere-box__text">Cho phép mang theo thú cưng</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- content experience -->
+  <div class="contetn-ex">
+        <div class="grid">
+          <h2 class="content-ex__title">Khám phá trải nghiệm</h2>
+          <p class="content-ex-des">Các hoạt động độc đáo với các chuyên gia địa phương – tham gia trực tiếp hoặc trực tuyến.</p>
+          <div class="content-ex-row">
+            
+            <div class="content-ex-box grid-column-3 ma-right-8">
+              <a href="" class="content-box__link">
+                <img src="./assets/img/khampha1.jpg" alt="" class="content-ex__img">
+                <h4 class="content-ex-box__title">Bộ sưu tập nổi bật: Phiêu du</h4>
+                <p class="content-ex-box__des">Du lịch tại nhà với trải nghiệm trực tuyến</p>
+              </a>
+              
+            </div>
+            <div class="content-ex-box grid-column-3 ma-left-8 ma-right-8">
+              <a href="" class="content-box__link">
+              <img src="./assets/img/khampha2.jpg" alt="" class="content-ex__img">
+              <h4 class="content-ex-box__title">Trải nghiệm trực tuyến</h4>
+              <p class="content-ex-box__des">Các hoạt động tương tác, truyền trực tiếp dưới sự dẫn dắt của Người tổ chức.</p>
+            </a>
+            </div>
+            <div class="content-ex-box grid-column-3 ma-left-8">
+              <a href="" class="content-box__link">
+              <img src="./assets/img/khampha3.jpg" alt="" class="content-ex__img">
+              <h4 class="content-ex-box__title">Trải nghiệm</h4>
+              <p class="content-ex-box__des">Những điều nên trải nghiệm của địa phương, dù bạn đang ở bất cứ đâu.</p>
+            </a>
+            </div>
+          </div>
+        </div>
+       
+  </div>
+  <!-- content-guest -->
+  <div class="content-guest">
+    <div class="grid">
+      <a href="" class="content-guest__link">
+        <div class="content-guest-background">
+          <div class="content-guest-box">
+            <h2 class="content-guest-title">Thử đón tiếp </br>khách</h2>
+            <p class="content-guest-des">Kiếm thêm thu nhập và khám phá các cơ hội</br>mới bằng cách chia sẻ nơi ở của bạn.</p>
+            <button class="btn btn-guest">Tìm hiểu thêm</button>
+            </div>
+        </div>
+      </a>
+      
+    </div>
+  </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="grid">
+        <div class="footer-row">
+          <div class="footer-col grid-column-4">
+            <h5 class="footer__heading">GIỚI THIỆU</h5>
+            <div class="footer__link-box">
+
+              <div class="footer__link-row">
+                <a href="" class="footer__link">Phương thức hoạt động của Airbnb</a>
+                <a href="" class="footer__link">Trang tin tức</a>
+                <a href="" class="footer__link">Airbnb 2021</a>
+              </div>
+              <div class="footer__link-row">
+                 <a href="" class="footer__link">Nhà đầu tư</a>
+                <a href="" class="footer__link">Airbnb Plus</a>
+                <a href="" class="footer__link">Airbnb Luxe</a> </div>
+                <div class="footer__link-row">
+                  <a href="" class="footer__link">HotelTonight</a>
+                  <a href="" class="footer__link">Airbnb for Work</a>
+                  <a href="" class="footer__link">Nhờ có Host,mọi điều đều có thể</a>
+                </div>
+                <div class="footer__link-row"> 
+                  <a href="" class="footer__link">Cơ hội nghề nghiệp</a>
+                  <a href="" class="footer__link">Thư của nhà sáng lập</a>
+                </div>
+          </div>
+          </div>
+          <div class="footer-col grid-column-4">
+            <h5 class="footer__heading">CỘNG ĐỒNG</h5>
+            <div class="footer__link-box"> 
+              <div class="footer__link-row js-slider">  
+                <a href="" class="footer__link">Sự đa dạng và cảm giác thân thuộc</a>
+                <a href="" class="footer__link">Tiện nghi phù hợp cho người khuyết tật</a>
+                <a href="" class="footer__link">Đối tác liên kết Airbnb</a>
+              </div>
+              <div class="footer__link-row">   
+                <a href="" class="footer__link">Chỗ ở cho tuyến đầu</a>
+                <a href="" class="footer__link">Lượt giới thiệu của khách</a>
+                <a href="" class="footer__link">Airbnb.org</a> 
+              </div>
+            </div>
+          </div>
+          <div class="footer-col grid-column-4">
+            <h5 class="footer__heading">ĐÓN TIẾP KHÁCH</h5>
+            <div class="footer__link-box"> 
+              <div class="footer__link-row">  
+                <a href="" class="footer__link">Cho thuê nhà</a>
+                <a href="" class="footer__link">Tổ chức trải nghiệm trực tuyến</a>
+                <a href="" class="footer__link">Tổ chức trải nghiệm</a>
+              </div>
+              <div class="footer__link-row">     
+                <a href="" class="footer__link">Đón tiếp khách có trách nhiệm</a>
+                <a href="" class="footer__link">Trung tâm tài nguyên</a>
+                <a href="" class="footer__link">Trung tâm cộng đồng</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-col grid-column-4">
+            <h5 class="footer__heading">HỖ TRỢ</h5>
+            <div class="footer__link-box"> 
+              <div class="footer__link-row">
+                <a href="" class="footer__link">Biện pháp ứng phó với đại dịch COVID-19 của chúng tôi</a>
+                <a href="" class="footer__link">Trung tâm trợ giúp</a>
+                <a href="" class="footer__link">Các tùy chọn hủy</a>
+              </div>
+              <div class="footer__link-row">
+                <a href="" class="footer__link">Hỗ trợ khu dân cư</a>
+                <a href="" class="footer__link">Tin cậy và an toàn</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-info">
+            <p class="footer-info__copyright">© 2021 Airbnb, Inc.</p>
+            <div class="footer-info__link-row">
+              <a href="" class="footer-info__link">
+                <i class="footer-info__icon fas fa-circle"></i>
+                Quyền riêng tư</a>
+              <a href="" class="footer-info__link">
+                <i class="footer-info__icon fas fa-circle"></i>
+                Điều khoản</a>
+              <a href="" class="footer-info__link">
+                <i class="footer-info__icon fas fa-circle"></i>
+                Sơ đồ trang web</a>
+            </div>
+          </div>
+          <div class="footer-info__social">
+            
+            <a href="" class="footer-info__social--link">
+              <i class="footer-info__social--icon fas fa-globe"></i>
+              Tiếng việt(VN)
+            </a>
+            
+            <a href="" class="footer-info__social--link">
+              <i class="footer-info__social--icon fas fa-dollar-sign"></i>
+              USD
+            </a>
+            <div class="footer-info__social-box-icon">
+              <a href="" class="footer-info__social-box-icon-link">
+                <i class="footer-info__social-box-icon-set fab fa-facebook-f"></i>
+              </a>
+              <a href="" class="footer-info__social-box-icon-link">
+
+                <i class="footer-info__social-box-icon-set fab fa-twitter"></i>
+              </a>
+              <a href="" class="footer-info__social-box-icon-link">
+                <i class="footer-info__social-box-icon-set fab fa-instagram-square"></i>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-navbar disable">
+        <a href="" class="footer-navbar-box active-footer">
+          <i class="footer-navbar-box-icon fas fa-search"></i>
+          <p class="footer-navbar-text">Khám phá</p>
+        </a>
+        <a  href="" class="footer-navbar-box">
+          <i class="footer-navbar-box-icon far fa-heart"></i>
+          <p class="footer-navbar-text">Yêu thích</p>
+        </a>
+        <a  class="footer-navbar-box">
+          <i class="footer-navbar-box-icon far fa-user-circle"></i>
+          <p class="footer-navbar-text">Đăng nhập</p>
+        </a>
+        
+        
+      </div>
+    </footer>
+  </div>
+
+  <div class="modal js-modal">
+    <div class="modal-container js-modal-container">
+      <div class="modal-header">
+          <div class="modal-container-close js-close">
+            <i class="modal-container-close-icon fas fa-times"></i>
+          </div>
+          <header class="modal-header-des">
+            Đăng nhập hoặc đăng ký
+          </header>
+        </div>
+      <div class="modal-body">
+        
+        <h4 class="modal-body-heading">Chào mừng bạn đến với Airbnb
+        </h4>
+        <div class="modal-body-input">
+          <select name="Số điện thoại" id="sdt" class="modal-input-text">
+            <option value="Việt Nam (+84)">Việt Nam (+84)</option>
+            <option value="Thổ Nhĩ Kỳ (+90)">Thổ Nhĩ Kỳ (+90)</option>
+            <option value="Đài Loan(+886)">Đài Loan(+886)</option>
+            <option value="Ukraina (+380)">Ukraina (+380)</option>
+            <option value="Tonga (+676)">Tonga (+676)</option>
+          </select>
+          <input type="text" placeholder="Số điện thoại" class="modal-input-text">
+        </div>
+        <p class="modal-body-policy">Chúng tôi sẽ gọi điện hoặc nhắn tin cho bạn để xác nhận số điện thoại. Có áp dụng phí dữ liệu và phí tin nhắn tiêu chuẩn.<a href="" class="modal-body-policy-link">Chính sách và quyền riêng tư</a></p>
+        <a href="" class="modal-social-btn-click">
+          <button class="modal-body-btn">Tiếp tục</button>
+        </a>
+       
+        <div class="modal-body-straight-box">
+          <div class="d"></div>
+          <p class="modal-body-straight">hoặc</p>
+          <div class="d"></div>
+        </div>
+       
+
+        <div class="modal-box-continue">
+          <a href="" class="modal-social-btn-click">
+            <button class="modal-social-btn">
+              <i class="modal-social-icon fab fa-facebook"></i>
+              <a href="" class="modal-social-link">Tiếp tục với Facebook</a>
+            </button>
+          </a>
+          <a href="" class="modal-social-btn-click">
+            <button class="modal-social-btn">
+              <i class="modal-social-icon fab fa-google"></i>
+              <a href="" class="modal-social-link">Tiếp tục với Google</a>
+            </button>
+          </a>
+          <a href="" class="modal-social-btn-click">
+            <button class="modal-social-btn">
+              <i class="modal-social-icon fab fa-apple"></i>
+              <a href="" class="modal-social-link">Tiếp tục với Apple</a>
+            </button>
+          </a>
+          
+          <a href="" class="modal-social-btn-click">
+            <button class="modal-social-btn">
+              <i class="modal-social-icon far fa-envelope"></i>
+              <a href="" class="modal-social-link">Tiếp tục bằng email</a>
+            </button>
+          </a>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js">
+    </script>
+    <script>
+$(window).on("load resize", function(){
+    var width = $(document).width();
+     
+    if (width > 740) { 
+      $('.travel-position-row').filter('.slick-initialized').slick('unslick');
+    } else { 
+      $('.travel-position-row').not('.slick-initialized').slick({  
+        dots: true,
+        speed: 500,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        slidesToShow: 1, 
+        slidesToScroll: 1, 
+        infinite: true,
+      });
+    }
+  });
+
+     </script>
+     
+  </body>
+  
+</html>

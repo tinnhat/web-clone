@@ -1,0 +1,73 @@
+.slider-aboutMina {
+  margin-top: 80px;
+  position: relative;
+  height: 400px;
+  background: url("./sus-bgr.png") top center / cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-aboutMina {
+  color: #fff;
+}
+.content-white-about {
+  text-align: center;
+}
+.text-white-about {
+  color: #4d2c57;
+  font-size: 26px;
+  margin: 110px 0;
+  font-weight: 500;
+  text-align: center;
+}
+.info-aboutMina-img {
+  width: 100%;
+}
+.info-aboutMina-box {
+  width: 500px;
+}
+.info-aboutMina-bgr-gray {
+  background-color: #f6f7f6;
+}
+.info-aboutMina-bgr-orage {
+  background-color: #fd925c;
+}
+.col {
+  padding-left: 0;
+  padding-right: 0;
+}
+.info-aboutMina-img-small {
+  width: 100%;
+  height: auto;
+}
+.info-content-aboutMina {
+  margin-right: 12px;
+}
+.text-color-mina {
+  color: #4d2c57;
+}
+.info-aboutMina-header {
+  font-size: 48px;
+  margin-bottom: 54px;
+}
+.info-aboutMina-text {
+  font-size: 18px;
+  margin-bottom: 36px;
+  line-height: 1.6;
+}
+.info-aboutMina-box {
+  margin-top: 210px;
+  margin-left: 124px;
+}
+.text-color-white {
+  color: #fff;
+}
+.mt-bot-120 {
+  margin-bottom: 120px;
+}
+.mt-top-100 {
+  margin-top: 100px;
+}
+.mt-bot-200 {
+  margin-bottom: 200px;
+}

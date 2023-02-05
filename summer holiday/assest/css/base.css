@@ -1,0 +1,113 @@
+:root {
+  --white-color: #fff;
+  --text-color: #555;
+  --primary-color: #14b9d5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+.header-navbar-edit {
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+.btn-custom {
+  color: #fffffc;
+  background: #14b9d5;
+  padding: 2px 20px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  border-radius: 16px;
+  text-transform: uppercase;
+}
+.btn-custom:hover {
+  color: #fffffc;
+}
+.disable {
+  display: none !important;
+}
+.enable-flex {
+  display: flex;
+}
+.change-color-1 {
+  background-color: rgb(88, 34, 88) !important;
+}
+.change-color-2 {
+  background-color: rgb(99, 35, 35) !important;
+}
+.gachchan {
+  text-decoration-line: underline;
+  text-decoration-color: #ba71da;
+}
+
+.ma-0 {
+  margin: 0;
+}
+.phai-dam {
+  background: linear-gradient(to right, #14b9d5 0%, #0071a7 100%) !important;
+}
+.trai-dam {
+  background: linear-gradient(to right, #0071a7 0%, #14b9d5 100%) !important;
+}
+
+.pad-0 {
+  padding: 0;
+}
+.mauxanh {
+  text-decoration-color: #14b9d5 !important;
+}
+.mautrang {
+  color: white !important;
+}
+.ma-bot-38 {
+  margin-bottom: 38px;
+}
+.xanhdam {
+  background-color: #0071a7 !important;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes dichuyen {
+  from {
+    mix-blend-mode: luminosity;
+    background-color: rgb(136, 58, 37);
+    transform: translateX(-800px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes hientutu {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes dich {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+.dichphai {
+  transform: translateX(100%);
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../assets/style/base.css" />
+    <link rel="stylesheet" href="../assets/style/main.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+  <body>
+   
+    <div class="main">
+        <!-- header -->
+        <div class="grid">
+          <nav class="navbar navbar-expand-lg navbar-light bg-edit">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/">
+                <img src="../assets/img/logo.png" alt="" class="img-header-logo" />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse navbar-header-setting">
+                <ul class="navbar-nav">
+                  <li class="nav-item mt-left-14">
+                    <a class="nav-link nav-link-hov" href="../shop/shop.html">
+                      Shop
+                    </a>
+                  </li>
+                  <li class="nav-item nav-item-icon mt-left-14">
+                    <a
+                      class="nav-link nav-link-hov"
+                      href="../about mina/aboutMina.html"
+                    >
+                      About
+                    </a>
+                    <i class="fas fa-caret-down"></i>
+                    <div class="nav-info">
+                      <a href="../sustain/sus.html" class="navbar-info-link">
+                        Sustainability
+                      </a>
+                    </div>
+                  </li>
+                  <li class="nav-item mt-left-14">
+                    <a
+                      class="nav-link nav-link-hov"
+                      href="../contact/contact.html"
+                    >
+                      Contact
+                    </a>
+                  </li>
+                  <li class="nav-item nav-item-icon mt-left-14">
+                    <i class="fas fa-shopping-bag"></i>
+                    <a
+                      class="nav-link nav-link-hov nav-active"
+                      href="../cart-no-shopping/cart.html"
+                    >
+                      Cart (O)
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      <!-- shop -->
+      <div class="loader">
+        <div></div>
+        <p class="text-load-page">Store is loading</p>
+    </div>
+    <div class="slider-loading">
+      <div class="slider-shop">
+        <h2 class="text-heading header-shop">Shop</h2>
+      </div>
+      <!-- items -->
+      <div class="content-shop">
+          <div class="content-shop-searching">
+              <div class="icon-shop-box">
+                <i class="icon-shop fas fa-search"></i>
+                <p class="icon-shop-title">Search</br>Products</p>
+              </div>
+              <div class="icon-shop-box">
+                <i class="icon-shop fas fa-shopping-bag"></i>
+                <p class="icon-shop-title">Shopping Bag</p>
+              </div>
+          </div>
+        
+      </div>
+      <!-- shopping cart -->
+      <div class="cart-head-box">
+        <h3 class="cart-headeing">Shopping cart</h3>
+        <p class="cart-heading-text">Store / Shopping cart</p>
+      </div>
+     <div class="cart-shopping-box">
+         <h3 class="cart-shopping-header">Your shopping cart is empty</h3>
+         <a href="" class="btn-footer ma-top-30">Browse Store</a>
+     </div>
+    </div>
+      <!-- footer -->
+      <footer class="footer">
+        <div class="footer-icon">
+          <h3 class="footer-title">MINA</h3>
+          <div class="box-footer-icon">
+            <a href="#" class="link-icon-contact">
+              <i class="icon-footer fab fa-twitter"></i>
+            </a>
+            <a href="" class="link-icon-contact">
+              <i class="icon-footer fab fa-facebook"></i>
+            </a>
+            <a
+              href="
+              "
+              class="link-icon-contact"
+            >
+              <i class="icon-footer fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-link">
+          <div class="footer-contact">
+            <a href="" class="footer-contact-link">Payments & Delivery</a>
+            <a href="" class="footer-contact-link">Returns</a>
+            <a href="" class="footer-contact-link">Contact</a>
+          </div>
+          <p class="footer-copyright">Powered by NhatTin</p>
+        </div>
+      </footer>
+    </div>
+    <script>
+        $(window).on('load',function(){
+            $(".loader").fadeOut(2000);
+            $(".slider-loading").fadeIn(2000);
+        })
+    </script>
+  </body>
+</html>

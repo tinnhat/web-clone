@@ -1,0 +1,83 @@
+.box-newsletter {
+  background: url(../img/letter-bkg.png);
+  padding: 150px 0;
+  .newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-box {
+      width: 50%;
+      &__title {
+        font-size: 46px;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 30px;
+      }
+      &-input {
+        width: 100%;
+        position: relative;
+        margin-bottom: 20px;
+        input {
+          width: 100%;
+          outline: none;
+          border: 1px solid #ffaf50;
+          background-color: transparent;
+          color: #fff;
+          padding: 18px 180px 18px 14px;
+          border-radius: 4px;
+          opacity: 0.9;
+          &::placeholder {
+            color: #fff;
+          }
+          &:focus {
+            border: 1px solid #fff;
+          }
+        }
+        .newsletter-box-btn-mail {
+          background-color: $btn-subscribe;
+          width: 160px;
+          color: #fff;
+          padding: 18px 0;
+          border: none;
+          border-top-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+          position: absolute;
+          right: 0;
+          bottom: 1px;
+          outline: none;
+          cursor: pointer;
+        }
+      }
+      &__text {
+        line-height: 1.4;
+        color: #fff;
+        opacity: 0.7;
+      }
+    }
+    &-social {
+      width: 30%;
+      text-align: right;
+      &__text {
+        font-size: 20px;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      .box-social-icon {
+        display: flex;
+        justify-content: flex-end;
+        i {
+          width: 60px;
+          height: 60px;
+          color: #fff;
+          font-size: 24px;
+          border: 1px solid #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

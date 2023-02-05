@@ -1,0 +1,45 @@
+.header {
+  background-color: $bkg-color;
+  padding: 32px 0;
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header__logo {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    .header__item {
+      &-link {
+        padding: 10px 20px;
+        &:hover {
+          transition: all 0.2s linear;
+          color: $orange-color;
+        }
+      }
+    }
+  }
+  &__login {
+    .btn-signup {
+      border: none;
+      padding: 14px 30px;
+      color: #fff;
+      cursor: pointer;
+      background-color: $color-blue;
+      border-radius: 4px;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header {
+    .container {
+      max-width: 90%;
+    }
+  }
+}

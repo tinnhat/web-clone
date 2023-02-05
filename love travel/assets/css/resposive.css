@@ -1,0 +1,129 @@
+/* mobile và table */
+@media only screen and (max-width: 63.9375em) {
+  .hide-mb-tablet {
+    display: none;
+  }
+  .content-des-box-halan,
+  .content-des-box-italy,
+  .content-des-box-thailan,
+  .content-des-box-europe {
+    margin-bottom: 26px;
+  }
+  .holiday-header {
+    padding-left: 60px;
+  }
+  .content-beach-left {
+    margin-bottom: 60px;
+  }
+  .content-packages-col {
+    margin-bottom: 40px;
+  }
+  .footer-header-right {
+    margin-left: 0;
+    padding-top: 0;
+  }
+  .footer-header-right-input {
+    width: 80%;
+  }
+  .footer-content-row-mtop {
+    margin: 0;
+  }
+  .footer-content-bottom {
+    flex-direction: column;
+  }
+  .beach-right-icon-cheo {
+    font-size: 16px;
+  }
+  .slick-slider .slick-dots li {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  }
+  ul.slick-dots {
+    padding: 0;
+  }
+}
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+  h2.header-banner__title {
+    text-align: center;
+    font-size: 40px;
+  }
+  h3.header-banner__des {
+    text-align: center;
+    font-size: 20px;
+  }
+  .header-banner-row.row {
+    justify-content: center;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+  .content-holiday-row {
+    flex-direction: column;
+  }
+  h2.holiday-header {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  a.btn-destination.btn-holiday {
+    margin-left: 0;
+  }
+  .content-holiday {
+    height: 340px;
+  }
+  .content-beach-left {
+    margin: 0 10px;
+  }
+  .beach-botom-row {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .beach-right-content {
+    width: 100%;
+    bottom: 0;
+  }
+  .slick-slider-img {
+    height: auto;
+  }
+  p.beach-right-number {
+    font-size: 18px;
+  }
+  .beach-right-box {
+    padding: 20px 0;
+  }
+  .beach-right-align {
+    margin-top: 60px;
+  }
+  .btn-destination.btn-input {
+    width: 80%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .footer-header-left.col.m-12.c-12 {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .footer-header-right {
+    text-align: center;
+  }
+  .col.l-2.m-12.c-12.footer-content-row-mtop {
+    margin: 0 20px;
+  }
+  .select.header-banner-select {
+    width: 100%;
+  }
+  .header-banner-btn {
+    width: 90%;
+  }
+}
+/* ipad pro */
+@media only screen and (max-width: 1240px) {
+  .hide {
+    display: none;
+  }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+}
